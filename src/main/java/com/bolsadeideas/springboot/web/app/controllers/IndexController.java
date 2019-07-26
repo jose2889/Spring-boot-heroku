@@ -13,7 +13,7 @@ public class IndexController {
 
 	@GetMapping({"/","/index"})
 	public String index(Model model) {
-		model.addAttribute("titulo", "Hola Venezuela!!!");
+		model.addAttribute("titulo", "Bienvenido a la Api de prueba para programadores!!! Desarrollada por Jose Hernandez");
 		return "index";
 	}
 	
